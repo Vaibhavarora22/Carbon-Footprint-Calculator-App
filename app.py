@@ -42,7 +42,7 @@ _,but,_ = main.columns([1,2,1])
 if but.button("Calculate Your Carbon Footprint!", type="primary"):
     click_element('tab-1')
 
-tab1, tab2, tab3, tab4, tab5 = comps.tabs(["👴 Person","🚗 Travel","🗑️ Waste","⚡ Energy","💸 Consumption"])
+tab1, tab2, tab3, tab4, tab5 = comps.tabs(["👴 Personal","🚗 Travel","🗑️ Waste","⚡ Energy","💸 Consumption"])
 tab_result,_ = result.tabs([" "," "])
 
 def component():
